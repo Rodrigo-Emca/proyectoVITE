@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color:aqua
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 }
+
+h1 {
+  color:aqua;
+  border: solid black 1px;
+}
+
